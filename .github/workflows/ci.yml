@@ -21,5 +21,18 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material 
-      - run: mkdocs gh-deploy --force
+      - run: pip install mkdocs-material
+      - run: pip install mkdocs-git-revision-date-localized-plugin
+      
+      # 使用 mkdocs build 命令生成站点内容
+      - run: mkdocs build
+
+      # 从主分支复制 CNAME 文件到生成的站点内容中
+      - run: cp CNAME site/
+
+      # 使用 gh-pages Action 推送到 gh-pages 分支
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
