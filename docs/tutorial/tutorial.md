@@ -50,19 +50,19 @@ comments: true
 - 打开QQ，搜索并加入我们的官方群
 - 点击"文件"，进入"服务器整合包"文件夹
 - 在文件列表中，找并下载名为 `TechBedRock-{版本}-{时间}-{启动器名称}` 的最新ZIP文件
-![图1-1](assets/tutorialImages/1.png)
+![图1-1](../assets/tutorialImages/1.png)
 ### 2. 文件操作
 
 - 下载完成后，定位到文件
 - 为了便于操作，建议将文件移动到桌面
-![图2-1](assets/tutorialImages/2.png)
+![图2-1](../assets/tutorialImages/2.png)
 ### 3. 使用PCL II导入整合包
 
 - 启动PCL II启动器
 - 在主界面，选择版本的下拉菜单 -> "导入整合包"
-![图3-1](assets/tutorialImages/3.png)
+![图3-1](../assets/tutorialImages/3.png)
 - 选择桌面上的整合包文件，点击"确定"
-![图3-2](assets/tutorialImages/3-2.png)
+![图3-2](../assets/tutorialImages/3-2.png)
 - 稍等片刻，系统将自动完成导入与设置...
 ---
 

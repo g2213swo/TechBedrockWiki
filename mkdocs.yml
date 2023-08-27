@@ -31,8 +31,8 @@ plugins:
 
 nav:
   - '⭐引语':
-      - 引语: 'index.md'
-      - 进服教程: 'tutorial.md'
+      - 引语: 'tutorial/index.md'
+      - 进服教程: 'tutorial/tutorial.md'
   # - 一级导航A:
   #     - 二级导航A1: 'a1.md'
   #     - 二级导航A2: 'a2.md'
