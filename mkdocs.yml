@@ -30,8 +30,9 @@ plugins:
       fallback_to_build_date: true
 
 nav:
+  - '🏠开始': 'index.md'
   - '⭐引语':
-      - 引语: 'tutorial/index.md'
+      - 引语: 'tutorial/welcome.md'
       - 进服教程: 'tutorial/tutorial.md'
   # - 一级导航A:
   #     - 二级导航A1: 'a1.md'
