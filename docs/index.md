@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # TechBedrock: 重新定义 Minecraft 生存体验
 
 在 **TechBedrock** 之中，我们带您踏上一段与众不同的 Minecraft 旅程。在这里，您不再只是为了生存而玩，而是为了享受、回味和与众玩家一同度过那份独特的 "养老" 时光。
