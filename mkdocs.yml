@@ -1,0 +1,74 @@
+site_name: TechBedrock Docs
+copyright: 2020 - 2023 TechBedrock
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  social:
+    - icon: fontawesome/brands/qq
+      link: 'https://qm.qq.com/cgi-bin/qm/qr?k=6tEzIBugAJ7p5JV_7viiS5MJJPKqgwIS&jump_from=webapi&authKey=%20Atm3h6mtmFHqpJrAgCZ171zFlRlRlw2TZvg7kFyDAEhyCJ0u4kx6wujn8n0y7ml'
+    - icon: fontawesome/brands/discord
+      link: 'https://discord.gg/p4CvsJrY'
+plugins:
+  - search:
+      lang:
+        - en
+        - zh
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+nav:
+  - '⭐引语':
+      - 引语: 'index.md'
+      - 进服教程: 'tutorial.md'
+  # - 一级导航A:
+  #     - 二级导航A1: 'a1.md'
+  #     - 二级导航A2: 'a2.md'
+  # - 一级导航B:
+  #     - 二级导航B1: 'b1.md'
+  #     - 二级导航B2: 'b2.md'
+theme:
+  name: material
+  custom_dir: overrides
+  language: zh
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  font:
+    text: 'Noto Sans SC'
+    code: 'Noto Sans SC'
+  features:
+    - announce.dismiss
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - navigation.expand
+    - navigation.prune
+    - navigation.indexes
+    - navigation.footer
+    - toc.follow
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
