@@ -65,5 +65,3 @@ comments: true
 ![图3-2](../assets/tutorialImages/3-2.png)
 - 稍等片刻，系统将自动完成导入与设置...
 ---
-
-更多教程正在编写中，请继续关注我们！

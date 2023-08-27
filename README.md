@@ -1,1 +1,2 @@
-### awa
+# TechBedrockWiki
+只是一个Minecraft小破服的WIKI文档而已……

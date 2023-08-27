@@ -31,15 +31,12 @@ plugins:
 
 nav:
   - '🏠开始': 'index.md'
-  - '⭐引语':
-      - 引语: 'tutorial/welcome.md'
-      - 进服教程: 'tutorial/tutorial.md'
-  # - 一级导航A:
-  #     - 二级导航A1: 'a1.md'
-  #     - 二级导航A2: 'a2.md'
-  # - 一级导航B:
-  #     - 二级导航B1: 'b1.md'
-  #     - 二级导航B2: 'b2.md'
+  - '💻服务器':
+      - '===⭐开始===':
+        - 引语: 'tutorial/welcome.md'
+        - 进服教程: 'tutorial/tutorial.md'
+      - '===😀玩法===':
+        - '玩法总览': 'gameplay/overview.md'
 theme:
   name: material
   custom_dir: overrides
