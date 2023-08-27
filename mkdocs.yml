@@ -6,7 +6,7 @@ repo_url: https://github.com/g2213swo/TechBedrockWiki
 extra:
   analytics:
     provider: google
-    property: G-6G170284M5
+    property: !ENV ["GOOGLE_ANALYTICS_ID", "G-0ZQZQZQZQZ"]
   consent:
     title: Cookie consent
     description: >- 
