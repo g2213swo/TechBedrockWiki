@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.techbedrock.com/gameplay/overview/</loc>
+         <lastmod>2023-08-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.techbedrock.com/tutorial/tutorial/</loc>
          <lastmod>2023-08-27</lastmod>
          <changefreq>daily</changefreq>
