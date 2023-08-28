@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block extrahead %}
+  <link rel="stylesheet" href="/assets/stylesheets/extrahead.css">
+{% endblock %}
+{% block announce %}
+  TechBedrock is powered by 
+  <a href="https://github.com/g2213swo">
+  <strong>@g2213swo</strong>
+  </a> and <strong>@Fischlandaz</strong>. Contact us on
+  <a rel="me" href="https://discord.gg/eyJst55r">
+      <span class="twemoji discord">
+        {% include ".icons/fontawesome/brands/discord.svg" %}
+      </span>
+      <strong>Discord</strong>
+  </a>
+  and
+  <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=AOzvhL2XbSraeukv55rbIYN8dnoFR170&authKey=h730CW7B%2FyfvL8a28ke%2BzhshfkgxWyxKwgFxTv42uXN7xRoAtYcQkWSK2ujLvnIh&noverify=0&group_code=795130802">
+      <span class="twemoji qq">
+        {% include ".icons/fontawesome/brands/qq.svg" %}
+      </span>
+      <strong>QQ Group</strong>
+  </a>
+{% endblock %}

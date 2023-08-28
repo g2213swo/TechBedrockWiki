@@ -3,6 +3,12 @@ copyright: 2020 - 2023 TechBedrock
 site_url: https://docs.techbedrock.com
 repo_name: g2213swo/TechBedrockWiki
 repo_url: https://github.com/g2213swo/TechBedrockWiki
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 extra:
   analytics:
     provider: google
@@ -10,10 +16,9 @@ extra:
   consent:
     title: Cookie consent
     description: >- 
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
+      我们使用 cookies 来识别您的重复访问和偏好设置，
+      同时测量我们文档的有效性以及用户是否找到他们正在搜索的内容。
+      在您的同意下，您正在帮助我们改进我们的文档。
   social:
     - icon: fontawesome/brands/qq
       link: 'https://qm.qq.com/cgi-bin/qm/qr?k=6tEzIBugAJ7p5JV_7viiS5MJJPKqgwIS&jump_from=webapi&authKey=%20Atm3h6mtmFHqpJrAgCZ171zFlRlRlw2TZvg7kFyDAEhyCJ0u4kx6wujn8n0y7ml'
@@ -24,11 +29,11 @@ plugins:
       lang:
         - en
         - zh
-      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
-
+extra_css:
+  - assets/stylesheets/extra.css
 nav:
   - '🏠开始': 'index.md'
   - '💻服务器':
@@ -39,7 +44,7 @@ nav:
         - '玩法总览': 'gameplay/overview.md'
 theme:
   name: material
-  custom_dir: overrides
+  custom_dir: .overrides
   language: zh
   logo: assets/logo.png
   favicon: assets/favicon.png
@@ -47,9 +52,19 @@ theme:
     repo: fontawesome/brands/git-alt
     edit: material/pencil 
     view: material/eye
-  font:
-    text: 'Noto Sans SC'
-    code: 'Noto Sans SC'
+    admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
   features:
     - announce.dismiss
     - navigation.instant
@@ -68,6 +83,8 @@ theme:
     - search.share
     - header.autohide
     - content.action.edit
+    - content.code.copy
+    - content.code.annotate
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
