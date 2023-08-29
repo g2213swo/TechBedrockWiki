@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.techbedrock.com/gameplay/plant/</loc>
+         <lastmod>2023-08-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.techbedrock.com/tutorial/rules/</loc>
          <lastmod>2023-08-29</lastmod>
          <changefreq>daily</changefreq>
