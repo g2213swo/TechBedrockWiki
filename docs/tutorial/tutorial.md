@@ -61,7 +61,7 @@ comments: true
 ### 3. **使用PCL II导入整合包**
 
 - 启动PCL II启动器
-- 在主界面，点击版本选择 -> "导入整合包"
+- 在主界面，点击版本选择 -> 选择一个你安装游戏的目录 -> 再点"导入整合包"
 ![图3-1](../assets/tutorialImages/3-1.png){width="700"}
 - 选择桌面上的整合包文件，点击"确定"  
 ![图3-2](../assets/tutorialImages/3-2.png){width="700"}
@@ -70,8 +70,9 @@ comments: true
 ### 4. **使用HMCL导入整合包**
 
 - 启动HMCL启动器
-- 在主界面，选择版本的下拉菜单 -> "安装整合包" -> "导入本地整合包文件>"
+- 在主界面，点击版本列表 -> 选择一个安装目录 -> 再点"安装整合包" -> "导入本地整合包文件>"
 ![图4-1](../assets/tutorialImages/4-1.png){width="700"}
+![图4-2](../assets/tutorialImages/4-3.png){width="700"}
 - 选择桌面上的整合包文件，点击"确定"
-![图4-2](../assets/tutorialImages/4-2.png){width="700"}
+![图4-3](../assets/tutorialImages/4-2.png){width="700"}
 - 稍等片刻，系统将自动完成导入与设置...
