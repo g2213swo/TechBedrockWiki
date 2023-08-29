@@ -16,9 +16,21 @@
 在原版 Minecraft 的基础上，我们加入了许多新的附魔效果：
 
 - **火焰行者**：让你可以在岩浆上自由行走
-![FlameWalker](./gameplayImages/FlameWalker.webp){width="700"}
+
+<br>
+
+![FlameWalker](./gameplayImages/FlameWalker.webp){width="600"}
+
+<br>
+
 - **矿透**：在短时间内查看周围的珍稀矿物
-![X-Ray](./gameplayImages/Xray.webp){width="700"}
+
+<br>
+
+![X-Ray](./gameplayImages/Xray.webp){width="600"}
+
+<br>
+
 - 弓可以附魔以**发射火球**
 - 杀死敌人时，你有概率**获得其头颅**
 - 等等......
