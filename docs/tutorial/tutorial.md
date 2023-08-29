@@ -4,13 +4,13 @@ comments: true
 
 # 🚀 进服教程 (Tutorial) 🚀
 
-## 服务器整合包安装
+## 服务器整合包信息
 
 想要更流畅地体验 Minecraft 和 TechBedrock 服务器？这里有一个专为您定制的性能优化整合包，助您解决电脑配置不足的问题✨
 
 ---
 
-```text
+```markdown
 ## 🎮 整合包 MOD 列表 🎮
 
 ### 前置
@@ -46,7 +46,7 @@ comments: true
 
 ### 1. 下载整合包
 
-- 打开QQ，搜索并加入我们的官方群
+- 打开QQ，搜索并加入我们的官方群或者点击[这里](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=AOzvhL2XbSraeukv55rbIYN8dnoFR170&authKey=h730CW7B%2FyfvL8a28ke%2BzhshfkgxWyxKwgFxTv42uXN7xRoAtYcQkWSK2ujLvnIh&noverify=0&group_code=795130802)加入
 - 点击"文件"，进入"服务器整合包"文件夹
 - 在文件列表中，找并下载名为 `TechBedRock-{版本}-{时间}-{启动器名称}` 的最新ZIP文件
 

@@ -19,6 +19,7 @@ extra:
       我们使用 cookies 来识别您的重复访问和偏好设置，
       同时测量我们文档的有效性以及用户是否找到他们正在搜索的内容。
       在您的同意下，您正在帮助我们改进我们的文档。
+      <a href="#__consent">Change cookie settings</a>
   social:
     - icon: fontawesome/brands/qq
       link: 'https://qm.qq.com/cgi-bin/qm/qr?k=6tEzIBugAJ7p5JV_7viiS5MJJPKqgwIS&jump_from=webapi&authKey=%20Atm3h6mtmFHqpJrAgCZ171zFlRlRlw2TZvg7kFyDAEhyCJ0u4kx6wujn8n0y7ml'
@@ -39,9 +40,11 @@ nav:
   - '💻服务器':
       - '===⭐开始===':
         - 引语: 'tutorial/welcome.md'
+        - 服务器规则: 'tutorial/rules.md'
         - 进服教程: 'tutorial/tutorial.md'
       - '===😀玩法===':
         - '玩法总览': 'gameplay/overview.md'
+        - '种植系统': 'gameplay/plant.md'
 theme:
   name: material
   custom_dir: .overrides
