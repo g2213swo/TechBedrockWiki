@@ -76,3 +76,14 @@ comments: true
 - 选择桌面上的整合包文件，点击"确定"
 ![图4-3](../assets/tutorialImages/4-2.png){width="700"}
 - 稍等片刻，系统将自动完成导入与设置...
+
+### 5. **启动游戏**
+
+-首先，你得有一个正版账号，不然进不了服务器。
+![图5-1](../assets/tutorialImages/5.1.png){width="700"}
+![图5-2](../assets/tutorialImages/5.2.png){width="700"}
+
+!!! tip "👉 正版购买指南 👈"
+    指南视频:
+    <https://www.bilibili.com/video/BV1vo4y1b7J2/?spm_id_from=333.337.search-card.all.click&vd_source=c662b9c2590c1986da8372ac1909a3d1>
+    请不要在官网购买，因某些原因官网已关闭购买
