@@ -80,8 +80,8 @@ comments: true
 ### 5. **启动游戏**
 
 -首先，你得有一个正版账号，不然进不了服务器。
-![图5-1](../assets/tutorialImages/5.1.png){width="700"}
-![图5-2](../assets/tutorialImages/5.2.png){width="700"}
+![图5-1](../assets/tutorialImages/5-1.png){width="700"}
+![图5-2](../assets/tutorialImages/5-2.png){width="700"}
 
 !!! tip "👉 正版购买指南 👈"
     指南视频:
