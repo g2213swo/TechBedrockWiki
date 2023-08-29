@@ -1,0 +1,10 @@
+:root {
+    --md-text-font: "/fonts/GenSenRounded-B.ttf"; 
+    --md-code-font: "/fonts/GenSenRounded-R.ttf";
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-width: 0;
+  border-left-width: 4px;
+}
