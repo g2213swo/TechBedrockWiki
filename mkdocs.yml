@@ -45,9 +45,11 @@ nav:
       - '===😀玩法===':
         - '玩法总览': 'gameplay/overview.md'
         - '种植系统': 'gameplay/plant.md'
+        - '钓鱼系统': 'gameplay/fish.md'
         - '其他':
           - '挂机服务器': 'gameplay/other/afk.md'
           - '自动工具': 'gameplay/other/autotool.md'
+          - '星级': 'gameplay/other/garde.md'
 theme:
   name: material
   custom_dir: .overrides
