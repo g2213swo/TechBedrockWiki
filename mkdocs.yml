@@ -49,7 +49,7 @@ nav:
         - '其他':
           - '挂机服务器': 'gameplay/other/afk.md'
           - '自动工具': 'gameplay/other/autotool.md'
-          - '星级': 'gameplay/other/garde.md'
+          - '星级': 'gameplay/other/grade.md'
 theme:
   name: material
   custom_dir: .overrides
